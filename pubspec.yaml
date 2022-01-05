@@ -14,6 +14,7 @@ dependencies:
     sdk: flutter
   firebase_core: ^1.10.5
   cloud_firestore: ^3.1.4
+  flutter_fortune_wheel: ^1.1.1
   cupertino_icons: ^1.0.2
   provider: ^6.0.1
   flutter_slidable: ^0.6.0
