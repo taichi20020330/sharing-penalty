@@ -1,6 +1,7 @@
 class Penalty{
-  Penalty(this.id, this.title, this.level);
+  Penalty(this.id, this.title, this.value);
   String title;
-  String level;
   String id;
+  bool value = false;
 }
+

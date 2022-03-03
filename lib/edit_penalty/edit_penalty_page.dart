@@ -29,16 +29,6 @@ class EditPenaltyPage extends StatelessWidget {
 
                 },
               ),
-              SizedBox(height:8,),
-              TextField(
-                controller: model.levelController,
-                decoration: InputDecoration(
-                  hintText: 'レベル',
-                ),
-                onChanged: (text) {
-                  model.setLevel(text);
-                },
-              ),
               SizedBox(height:16,),
               ElevatedButton(
                   onPressed: model.isUpdate() ? () async{
